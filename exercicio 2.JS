@@ -17,3 +17,4 @@ const valorGasto = listroConsumidos * precoCombustivel;
 console.log(valorGasto.toFixed(2));
 
 
+arredondamento das casa decimais pelo "toFixed()";
