@@ -14,8 +14,8 @@ const precoEtanol = 5.79;
 const precoGasolina = 6.66;
 const kmPorLitro = 10;
 const distanciaEmkm = 100;
-const tipoCombustivel = 'Etanol';
-/*posso musar  o tipoCombustivel = Gasolina */
+const tipoCombustivel = 'Etanol'; 
+/*posso mudar  o tipoCombustivel = Gasolina */
 
 
 
@@ -28,3 +28,6 @@ if (tipoCombustivel === 'Etanol') {
     const valorGasto = litroConsumidos * precoGasolina;
     console.log(valorGasto.toFixed(2));
 }
+
+saida se abastecer com Etanol = " 57.90";
+saida e se abaster com Gasolina = "66.60";
