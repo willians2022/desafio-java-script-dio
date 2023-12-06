@@ -14,8 +14,8 @@ const precoEtanol = 5.79;
 const precoGasolina = 6.66;
 const kmPorLitro = 10;
 const distanciaEmkm = 100;
-const tipoCombustivel = 'Etanol';
-/*posso musar  o tipoCombustivel = Gasolina */
+const tipoCombustivel = 'Gasolina';
+/*posso mudar  o tipoCombustivel = Gasolina para Etanol */
 
 
 
