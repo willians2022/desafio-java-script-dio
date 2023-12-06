@@ -17,3 +17,4 @@ const valorGasto = listroConsumidos * precoCombustivel;
 console.log(valorGasto);
 
 
+valorGasto = 2200
