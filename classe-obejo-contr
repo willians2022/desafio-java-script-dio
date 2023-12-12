@@ -1,0 +1,35 @@
+/* ***** os dois metodos funcionar tem os mesmo resultado 
+
+
+function pessoa (nome,idade){
+    this.nome = nome
+    this.idade = idade
+}
+
+
+
+pessoa.prototype.falar = function () {
+    console.log(`meu nome é ${this.nome}`)
+}
+
+const willians = new pessoa ('willians', 38)
+
+willians.falar()
+
+*/
+
+class pessoa {
+
+    constructor(nome, idade) {
+        this.nome = nome
+        this.idade = idade
+    }
+
+    falar() {
+        console.log(`meu nome é ${this.nome}`)
+    }
+}
+
+const willians = new pessoa ('willians ,38')
+
+willians.falar()
